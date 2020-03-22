@@ -29,7 +29,7 @@ jsproxy_config({
     'mysite': {
       label: '当前站点',
       lines: {
-        'https://allmirror.wikipeike.workers.de': 1,
+        'allmirror.wikipeike.workers.dev': 1,
       }
     },
     // 该节点用于加载大体积的静态资源

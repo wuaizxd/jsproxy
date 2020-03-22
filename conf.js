@@ -29,7 +29,7 @@ jsproxy_config({
     'mysite': {
       label: '当前站点',
       lines: {
-        [location.host]: 1,
+        'https://allmirror.wikipeike.workers.de': 1,
       }
     },
     // 该节点用于加载大体积的静态资源
@@ -87,12 +87,6 @@ jsproxy_config({
   url_handler: {
     'https://www.baidu.com/img/baidu_resultlogo@2.png': {
       replace: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png'
-    },
-    'https://www.pornhub.com/': {
-      redir: 'https://php.net/'
-    },
-    'http://haha.com/': {
-      content: 'Hello World'
     },
   }
 })
